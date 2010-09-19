@@ -1,0 +1,11 @@
+Subject: <!--$Subject-->
+From: <!--$From-->
+To: <!--$To-->
+Cc:
+Bcc:
+Format: TEXT
+
+Record status changed:
+table:		<!--table-->
+key value:	<!--key-->
+action:		<!--action-->

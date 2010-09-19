@@ -1,0 +1,17 @@
+Subject: Password Changed
+From: <!--$From-->
+To: <!--$To-->
+Cc:
+Bcc:
+Format: TEXT
+
+Dear Sir/Madam,
+
+Your password with us has been changed as follow:
+
+Password: <!--$Password-->
+
+Please feel free to contact us in case of further queries.
+
+Best Regards,
+Support

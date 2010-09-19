@@ -1,0 +1,756 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<ew-language date="2010/9/12" version="7.0.1" id="en" name="English" desc="English" author="e.World Technology Ltd.">
+	<global>
+		<phrase id="actiondeleted" value="Deleted"/>
+		<phrase id="actioninserted" value="Inserted"/>
+		<phrase id="actioninsertedgridadd" value="Inserted (Grid-Add)"/>
+		<phrase id="actionupdated" value="Updated"/>
+		<phrase id="actionupdatedgridedit" value="Updated (Grid-Edit)"/>
+		<phrase id="actionupdatedmultiupdate" value="Updated (Multi-Update)"/>
+		<phrase id="activateaccount" value="Your account is activated"/>
+		<phrase id="activatefailed" value="Activation failed"/>
+		<phrase id="add" value="Add to"/>
+		<phrase id="addbtn" value="Add"/>
+		<phrase id="addlink" value="Add"/>
+		<phrase id="addsuccess" value="Add succeeded"/>
+		<phrase id="advancedsearch" value="Advanced Search"/>
+		<phrase id="allrecords" value="All"/>
+		<phrase id="allword" value="All words"/>
+		<phrase id="alwaysask" value="Always ask for my user name and password"/>
+		<phrase id="anyword" value="Any word"/>
+		<phrase id="audittrailautologin" value="autologin"/>
+		<phrase id="audittrailfailedattempt" value="failed attempt: %n"/>
+		<phrase id="audittrailuserloggedin" value="user already logged in"/>
+		<phrase id="audittrailpasswordexpired" value="password expired"/>
+		<phrase id="audittraillogin" value="login"/>
+		<phrase id="audittraillogout" value="logout"/>
+		<phrase id="autologin" value="Auto login until I logout explicitly"/>
+		<phrase id="average" value="Average"/>
+		<phrase id="backtolist" value="Back to List"/>
+		<phrase id="backtologin" value="Back to login page"/>
+		<phrase id="backtomasterpage" value="Back to master page"/>
+		<phrase id="batchdeletebegin" value="*** Batch delete begin ***"/>
+		<phrase id="batchdeleterollback" value="*** Batch delete rollback ***"/>
+		<phrase id="batchdeletesuccess" value="*** Batch delete successful ***"/>
+		<phrase id="batchinsertbegin" value="*** Batch insert begin ***"/>
+		<phrase id="batchinsertrollback" value="*** Batch insert rollback ***"/>
+		<phrase id="batchinsertsuccess" value="*** Batch insert successful ***"/>
+		<phrase id="batchupdatebegin" value="*** Batch update begin ***"/>
+		<phrase id="batchupdaterollback" value="*** Batch update rollback ***"/>
+		<phrase id="batchupdatesuccess" value="*** Batch update successful ***"/>
+		<phrase id="cancelbtn" value="Cancel"/>
+		<phrase id="cancellink" value="Cancel"/>
+		<phrase id="changepwd" value="Change Password"/>
+		<phrase id="changepwdpage" value="Change Password Page"/>
+		<phrase id="changepwdbtn" value="Change Password"/>
+		<phrase id="confirm" value="Confirm"/>
+		<phrase id="confirmbtn" value="Confirm"/>
+		<phrase id="confirmpassword" value="Confirm Password"/>
+		<phrase id="conflictcancellink" value="Cancel"/>
+		<phrase id="copylink" value="Copy"/>
+		<phrase id="count" value="Count"/>
+		<phrase id="customview" value="CUSTOM VIEW"/>
+		<phrase id="delete" value="Delete From"/>
+		<phrase id="deletebtn" value="Confirm Delete"/>
+		<phrase id="deletecancelled" value="Delete cancelled"/>
+		<phrase id="deleteconfirmmsg" value="Do you want to delete this record?" client="1"/>
+		<phrase id="deletelink" value="Delete"/>
+		<phrase id="deletemulticonfirmmsg" value="Do you want to delete the selected records?" client="1"/>
+		<phrase id="deleteselectedlink" value="Delete Selected Records"/>
+		<phrase id="deletesuccess" value="Delete succeeded"/>
+		<phrase id="detaillink" value=""/>
+		<phrase id="detailcount" value="(%c)"/>
+		<phrase id="dupindex" value="Duplicate value '%v' for unique index '%f'"/>
+		<phrase id="dupkey" value="Duplicate primary key: '%f'"/>
+		<phrase id="edit" value="Edit"/>
+		<phrase id="editbtn" value="Edit"/>
+		<phrase id="editlink" value="Edit"/>
+		<phrase id="enternewpassword" value="Please enter new password" client="1"/>
+		<phrase id="enteroldpassword" value="Please enter old password" client="1"/>
+		<phrase id="enterpassword" value="Please enter password" client="1"/>
+		<phrase id="enterpwd" value="Please enter password" client="1"/>
+		<phrase id="enterrequiredfield" value="Please enter required field" client="1"/>
+		<phrase id="entersearchcriteria" value="Please enter search criteria"/>
+		<phrase id="enterusername" value="Please enter username" client="1"/>
+		<phrase id="entervalidatecode" value="Please enter the validation code shown" client="1"/>
+		<phrase id="entersenderemail" value="Please enter sender email" client="1"/>
+		<phrase id="enterpropersenderemail" value="Exceed maximum sender email count or email address incorrect" client="1"/>
+		<phrase id="enterrecipientemail" value="Please enter recipient email" client="1"/>
+		<phrase id="enterproperrecipientemail" value="Exceed maximum recipient email count or email address incorrect" client="1"/>
+		<phrase id="enterproperccemail" value="Exceed maximum cc email count or email address incorrect" client="1"/>
+		<phrase id="enterproperbccemail" value="Exceed maximum bcc email count or email address incorrect" client="1"/>
+		<phrase id="entersubject" value="Please enter subject" client="1"/>
+		<phrase id="emailformsender" value="From"/>
+		<phrase id="emailformrecipient" value="To"/>
+		<phrase id="emailformcc" value="Cc"/>
+		<phrase id="emailformbcc" value="Bcc"/>
+		<phrase id="emailformsubject" value="Subject"/>
+		<phrase id="emailformmessage" value="Message"/>
+		<phrase id="emailformcontenttype" value="Send as"/>
+		<phrase id="emailformcontenttypeurl" value="URL"/>
+		<phrase id="emailformcontenttypehtml" value="HTML"/>
+		<phrase id="enteruid" value="Please enter user ID" client="1"/>
+		<phrase id="entervalidemail" value="Please enter valid Email Address!" client="1"/>
+		<phrase id="exactphrase" value="Exact phrase"/>
+		<phrase id="exceedmaxretry" value="Exceed maximum login retry count. Account is locked. Please try again in %t minutes"/>
+		<phrase id="exceedmaxemailexport" value="Exceed maximum export email count. Please try again later"/>
+		<phrase id="exporttocsv" value="Export to CSV"/>
+		<phrase id="exporttoemail" value="Email" client="1"/>
+		<phrase id="exporttoexcel" value="Export to Excel"/>
+		<phrase id="exporttohtml" value="Export to HTML"/>
+		<phrase id="exporttoword" value="Export to Word"/>
+		<phrase id="exporttoxml" value="Export to XML"/>
+		<phrase id="failedtosendmail" value="Failed to send mail. "/>
+		<phrase id="fieldname" value="Field Name"/>
+		<phrase id="fieldrequiredindicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;"/>
+		<phrase id="overwritebtn" value="Overwrite"/>
+		<phrase id="overwritelink" value="Overwrite"/>
+		<phrase id="forgotpwd" value="Forgot Password"/>
+		<phrase id="goback" value="Go Back"/>
+		<phrase id="gridaddlink" value="Grid Add"/>
+		<phrase id="gridcancellink" value="Cancel"/>
+		<phrase id="grideditlink" value="Grid Edit"/>
+		<phrase id="gridinsertlink" value="Insert"/>
+		<phrase id="gridsavelink" value="Save"/>
+		<phrase id="hidehighlight" value="Hide highlight" client="1"/>
+		<phrase id="incorrectcreditcard" value="Incorrect credit card number"/>
+		<phrase id="incorrectdateymd" value="Incorrect date, format = yyyy%smm%sdd"/>
+		<phrase id="incorrectdatemdy" value="Incorrect date, format = mm%sdd%syyyy"/>
+		<phrase id="incorrectdatedmy" value="Incorrect date, format = dd%smm%syyyy"/>
+		<phrase id="incorrectemail" value="Incorrect email" client="1"/>
+		<phrase id="incorrectfield" value="Incorrect field" client="1"/>
+		<phrase id="incorrectfloat" value="Incorrect floating point number" client="1"/>
+		<phrase id="incorrectguid" value="Incorrect GUID" client="1"/>
+		<phrase id="incorrectinteger" value="Incorrect integer" client="1"/>
+		<phrase id="incorrectphone" value="Incorrect phone number" client="1"/>
+		<phrase id="incorrectregexp" value="Regular expression not matched" client="1"/>
+		<phrase id="incorrectrange" value="Number must be between %1 and %2" client="1"/>
+		<phrase id="incorrectssn" value="Incorrect social security number" client="1"/>
+		<phrase id="incorrecttime" value="Incorrect time (hh:mm:ss)" client="1"/>
+		<phrase id="incorrectzip" value="Incorrect ZIP code" client="1"/>
+		<phrase id="inlineaddlink" value="Inline Add"/>
+		<phrase id="inlinecopylink" value="Inline Copy"/>
+		<phrase id="inlineeditlink" value="Inline Edit"/>
+		<phrase id="insertcancelled" value="Insert cancelled"/>
+		<phrase id="insertfailed" value="Insert failed"/>
+		<phrase id="insertlink" value="Insert"/>
+		<phrase id="insertsuccess" value="Insert succeeded"/>
+		<phrase id="invalidemail" value="Invalid Email"/>
+		<phrase id="invalidfield" value="Invalid Field"/>
+		<phrase id="invalidkeyvalue" value="Invalid key value"/>
+		<phrase id="invalidrecord" value="Invalid Record! Key is null" client="1"/>
+		<phrase id="invalidparameter" value="Invalid Parameter"/>
+		<phrase id="invalidpassword" value="Invalid Password"/>
+		<phrase id="invaliduidpwd" value="Incorrect user ID or password"/>
+		<phrase id="keep" value="Keep"/>
+		<phrase id="language" value="Language"/>
+		<phrase id="loading" value="Loading..." client="1"/>
+		<phrase id="login" value="Login"/>
+		<phrase id="logincancelled" value="Login cancelled"/>
+		<phrase id="loginpage" value="Login Page"/>
+		<phrase id="logout" value="Logout"/>
+		<phrase id="masterrecord" value="Master Record: "/>
+		<phrase id="maxfilesize" value="Max. file size (%s bytes) exceeded."/>
+		<phrase id="mismatchpassword" value="Mismatch Password" client="1"/>
+		<phrase id="missinglookuptablename" value="Missing lookup table name"/>
+		<phrase id="missingdisplayfieldname" value="Missing display field name"/>
+		<phrase id="missingdisplayfieldvalue" value="Missing display field value"/>
+		<phrase id="missinguserlevelid" value="Missing User Level ID"/>
+		<phrase id="missinguserlevelname" value="Missing User Level name"/>
+		<phrase id="new" value="New"/>
+		<phrase id="newpassword" value="New Password"/>
+		<phrase id="newvalue" value="New Value"/>
+		<phrase id="next" value="Next"/>
+		<phrase id="noaddrecord" value="No records to be added" client="1"/>
+		<phrase id="nofieldselected" value="No field selected for update" client="1"/>
+		<phrase id="nopermission" value="You do not have the right permission to view the page"/>
+		<phrase id="norecord" value="No records found"/>
+		<phrase id="norecordforkey" value="No record found for key = "/>
+		<phrase id="norecordselected" value="No records selected" client="1"/>
+		<phrase id="notablegenerated" value="No tables generated"/>
+		<phrase id="of" value="of"/>
+		<phrase id="old" value="Old"/>
+		<phrase id="oldpassword" value="Old Password"/>
+		<phrase id="optionalreadyexist" value="Option already exists"/>
+		<phrase id="page" value="Page"/>
+		<phrase id="pagerfirst" value="First"/>
+		<phrase id="pagerlast" value="Last"/>
+		<phrase id="pagernext" value="Next"/>
+		<phrase id="pagerprevious" value="Previous"/>
+		<phrase id="password" value="Password"/>
+		<phrase id="passwordrequest" value="Password Request"/>
+		<phrase id="passwordchanged" value="Password Changed"/>
+		<phrase id="passwordexpired" value="Password Expired. Please change password."/>
+		<phrase id="permission" value="Permission"/>
+		<phrase id="permissionaddcopy" value="Add/Copy"/>
+		<phrase id="permissiondelete" value="Delete"/>
+		<phrase id="permissionedit" value="Edit"/>
+		<phrase id="permissionlistsearchview" value="List/Search/View"/>
+		<phrase id="permissionlist" value="List"/>
+		<phrase id="permissionsearch" value="Search"/>
+		<phrase id="permissionview" value="View"/>
+		<phrase id="phpuploaderr1" value="The uploaded file exceeds the upload_max_filesize directive in php.ini."/>
+		<phrase id="phpuploaderr2" value="The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form."/>
+		<phrase id="phpuploaderr3" value="The uploaded file was only partially uploaded."/>
+		<phrase id="phpuploaderr4" value="No file was uploaded."/>
+		<phrase id="phpuploaderr6" value="Missing a temporary folder."/>
+		<phrase id="phpuploaderr7" value="Failed to write file to disk."/>
+		<phrase id="phpuploaderr8" value="File upload stopped by extension."/>
+		<phrase id="pickdate" value="Pick a date"/>
+		<phrase id="pleaseselect" value="Please Select"/>
+		<phrase id="primarykeyunspecified" value="Primary key unspecified"/>
+		<phrase id="printerfriendly" value="Printer Friendly"/>
+		<phrase id="prev" value="Prev"/>
+		<phrase id="pwdemailsent" value="Password sent to your email"/>
+		<phrase id="quicksearch" value="Quick Search"/>
+		<phrase id="quicksearchbtn" value="Search (*)"/>
+		<phrase id="record" value="Records"/>
+		<phrase id="recordchangedbyotheruser" value="Data has been changed by other user. Click [Reload] to retrieve the changed data (your data in the form will be overwritten) or click [Overwrite] to overwrite the changed data."/>
+		<phrase id="recorddeleted" value="record(s) deleted"/>
+		<phrase id="recordinserted" value="record(s) inserted"/>
+		<phrase id="recordupdated" value="record(s) updated"/>
+		<phrase id="recordsperpage" value="Page Size"/>
+		<phrase id="register" value="Register"/>
+		<phrase id="registerbtn" value="Register"/>
+		<phrase id="registersuccess" value="Registration succeeded"/>
+		<phrase id="registersuccessactivate" value="Registration succeeded. An email has been sent to your email address, please click the link in the email to activate your account."/>
+		<phrase id="registerpage" value="Registration Page"/>
+		<phrase id="reloadbtn" value="Reload"/>
+		<phrase id="reloadlink" value="Reload"/>
+		<phrase id="rememberme" value="Remember me"/>
+		<phrase id="remove" value="Remove"/>
+		<phrase id="replace" value="Replace"/>
+		<phrase id="report" value="Report"/>
+		<phrase id="requestpwdpage" value="Request Password Page"/>
+		<phrase id="reset" value="Reset"/>
+		<phrase id="resetsearch" value="Reset search criteria"/>
+		<phrase id="rptavg" value="Average"/>
+		<phrase id="rptdtlrec" value="Detail Records"/>
+		<phrase id="rptgrandtotal" value="Grand Total"/>
+		<phrase id="rptmax" value="Maximum"/>
+		<phrase id="rptmin" value="Minimum"/>
+		<phrase id="rptsum" value="Sum"/>
+		<phrase id="rptsumhead" value="Summary for"/>
+		<phrase id="saveusername" value="Save my user name"/>
+		<phrase id="search" value="Search"/>
+		<phrase id="sendemailbtn" value="Send"/>
+		<phrase id="sendemailsuccess" value="Email sent successfully" client="1"/>
+		<phrase id="sendpwd" value="Send Password"/>
+		<phrase id="showall" value="Show all"/>
+		<phrase id="showhighlight" value="Show highlight" client="1"/>
+		<phrase id="srchlegend" value="&amp;nbsp;(*)"/>
+		<phrase id="table" value="TABLE"/>
+		<phrase id="tbltypetable" value="Table: "/>
+		<phrase id="tbltypeview" value="View: "/>
+		<phrase id="tbltypecustomview" value="Custom View: "/>
+		<phrase id="tbltypereport" value="Report: "/>
+		<phrase id="to" value="to"/>
+		<phrase id="total" value="Total"/>
+		<phrase id="unauthorizeduserid" value="The current user (%c) is not authorized to assign the user ID (%u)."/>
+		<phrase id="unauthorizedparentuserid" value="The current user (%c) is not authorized to assign the parent user ID (%p)."/>
+		<phrase id="unauthorizedmasteruserid" value="The current user (%c) is not authorized to insert the record. Master filter: %f"/>
+		<phrase id="unmatchedvalue" value="&lt;img src=&quot;images/alert-small.gif&quot; alt=&quot;Value does not exist&quot; width=&quot;16&quot; height=&quot;16&quot; border=&quot;0&quot;&gt;"/>
+		<phrase id="update" value="Update"/>
+		<phrase id="updatebtn" value="Update"/>
+		<phrase id="updatecancelled" value="Update cancelled"/>
+		<phrase id="updatefailed" value="Update failed"/>
+		<phrase id="updatelink" value="Update"/>
+		<phrase id="updateselectedlink" value="Update Selected Records"/>
+		<phrase id="updatesuccess" value="Update succeeded"/>
+		<phrase id="updatevalue" value="Update"/>
+		<phrase id="useremail" value="User Email"/>
+		<phrase id="userexists" value="User already exists"/>
+		<phrase id="userlevel" value="User Level: "/>
+		<phrase id="userleveladministratorname" value="User level name for user level -1 must be 'Administrator'" client="1"/>
+		<phrase id="userlevelpermission" value="User Level Permissions"/>
+		<phrase id="userlevelidinteger" value="User Level ID must be integer" client="1"/>
+		<phrase id="userleveldefaultname" value="User level name for user level 0 must be 'Default'" client="1"/>
+		<phrase id="userlevelidincorrect" value="User defined User Level ID must be larger than 0" client="1"/>
+		<phrase id="userlevelnameincorrect" value="User defined User Level name cannot be 'Administrator' or 'Default'" client="1"/>
+		<phrase id="userloggedin" value="User '%u' already logged in!"/>
+		<phrase id="username" value="User Name"/>
+		<phrase id="userprofilecorrupted" value="User profile is corrupted. Please logout and login again"/>
+		<phrase id="view" value="View"/>
+		<phrase id="viewlink" value="View"/>
+		<phrase id="viewpageaddlink" value="Add"/>
+		<phrase id="viewpagecopylink" value="Copy"/>
+		<phrase id="viewpagedeletelink" value="Delete"/>
+		<phrase id="viewpagedetaillink" value=""/>
+		<phrase id="viewpageeditlink" value="Edit"/>
+		<phrase id="wrongfiletype" value="File type is not allowed." client="1"/>
+		<phrase id="tableorview" value="Tables/Views"/>
+		<phrase id="=" value="="/>
+		<phrase id="&lt;&gt;" value="&lt;&gt;"/>
+		<phrase id="&lt;" value="&lt;"/>
+		<phrase id="&lt;=" value="&lt;="/>
+		<phrase id="&gt;" value="&gt;"/>
+		<phrase id="&gt;=" value="&gt;="/>
+		<phrase id="like" value="contains"/>
+		<phrase id="not like" value="not contains"/>
+		<phrase id="starts with" value="starts with"/>
+		<phrase id="between" value="between"/>
+		<phrase id="and" value="and"/>
+		<phrase id="or" value="or"/>
+	</global>
+	<project><phrase id="bodytitle" value="SEOStat v0.1"/>
+<phrase id="footertext" value="&amp;copy;2010 @jliman All rights reserved."/>
+<menu id="29"><phrase id="menutext" value="tbl user level"/>
+</menu>
+<menu id="30"><phrase id="menutext" value="tbl user level permissions"/>
+</menu>
+<menu id="11"><phrase id="menutext" value="v backlink before last date"/>
+</menu>
+<menu id="12"><phrase id="menutext" value="v backlink last date"/>
+</menu>
+<menu id="13"><phrase id="menutext" value="v dashboard"/>
+</menu>
+<menu id="14"><phrase id="menutext" value="v facebook before last date"/>
+</menu>
+<menu id="15"><phrase id="menutext" value="v facebook last date"/>
+</menu>
+<menu id="16"><phrase id="menutext" value="v ga before last date"/>
+</menu>
+<menu id="17"><phrase id="menutext" value="v ga last date"/>
+</menu>
+<menu id="18"><phrase id="menutext" value="v ga stat daily"/>
+</menu>
+<menu id="19"><phrase id="menutext" value="v index before last date"/>
+</menu>
+<menu id="20"><phrase id="menutext" value="v index last date"/>
+</menu>
+<menu id="21"><phrase id="menutext" value="v rank before last date"/>
+</menu>
+<menu id="22"><phrase id="menutext" value="v rank last date"/>
+</menu>
+<menu id="23"><phrase id="menutext" value="v twitter before last date"/>
+</menu>
+<menu id="24"><phrase id="menutext" value="v twitter last date"/>
+</menu>
+<menu id="25"><phrase id="menutext" value="SEO Statistics"/>
+</menu>
+<menu id="1"><phrase id="menutext" value="Backlink"/>
+</menu>
+<menu id="3"><phrase id="menutext" value="Google Analytics"/>
+</menu>
+<menu id="6"><phrase id="menutext" value="Indexed Pages"/>
+</menu>
+<menu id="8"><phrase id="menutext" value="Web Rank"/>
+</menu>
+<menu id="27"><phrase id="menutext" value="Social Media"/>
+</menu>
+<menu id="2"><phrase id="menutext" value="Facebook"/>
+</menu>
+<menu id="10"><phrase id="menutext" value="Twitter"/>
+</menu>
+<menu id="26"><phrase id="menutext" value="Settings"/>
+</menu>
+<menu id="4"><phrase id="menutext" value="Group"/>
+</menu>
+<menu id="5"><phrase id="menutext" value="Group - Profile"/>
+</menu>
+<menu id="7"><phrase id="menutext" value="Profile"/>
+</menu>
+<menu id="9"><phrase id="menutext" value="Target"/>
+</menu>
+<menu id="28"><phrase id="menutext" value="User"/>
+</menu>
+<table id="tbl_backlink_stat"><phrase id="tblcaption" value="Backlink"/>
+<field id="id_profile"><phrase id="fldcaption" value="Profile"/>
+</field>
+<field id="stat_date"><phrase id="fldcaption" value="Date"/>
+</field>
+<field id="year"><phrase id="fldcaption" value="Year"/>
+</field>
+<field id="month"><phrase id="fldcaption" value="Month"/>
+</field>
+<field id="week"><phrase id="fldcaption" value="Week"/>
+</field>
+<field id="backlink1"><phrase id="fldcaption" value="BacklinkWatch"/>
+</field>
+<field id="backlink2"><phrase id="fldcaption" value="Dirgio.com"/>
+</field>
+<field id="backlink3"><phrase id="fldcaption" value="Yahoo!"/>
+</field>
+</table>
+<table id="tbl_facebook_stat"><phrase id="tblcaption" value="Facebook"/>
+<field id="id_profile"><phrase id="fldcaption" value="Profile"/>
+</field>
+<field id="stat_date"><phrase id="fldcaption" value="Date"/>
+</field>
+<field id="year"><phrase id="fldcaption" value="Year"/>
+</field>
+<field id="month"><phrase id="fldcaption" value="Month"/>
+</field>
+<field id="week"><phrase id="fldcaption" value="Week"/>
+</field>
+<field id="interactions"><phrase id="fldcaption" value="Interactions"/>
+</field>
+<field id="comments"><phrase id="fldcaption" value="Comments"/>
+</field>
+<field id="wallposts"><phrase id="fldcaption" value="Wallposts"/>
+</field>
+<field id="fans"><phrase id="fldcaption" value="Fans"/>
+</field>
+<field id="likes"><phrase id="fldcaption" value="Likes"/>
+</field>
+<field id="unsubscribe"><phrase id="fldcaption" value="Unsubscribe"/>
+</field>
+</table>
+<table id="tbl_ga_stat"><phrase id="tblcaption" value="Google Analytics"/>
+<field id="id_profile"><phrase id="fldcaption" value="Profile"/>
+</field>
+<field id="stat_date"><phrase id="fldcaption" value="Date"/>
+</field>
+<field id="year"><phrase id="fldcaption" value="Year"/>
+</field>
+<field id="month"><phrase id="fldcaption" value="Month"/>
+</field>
+<field id="week"><phrase id="fldcaption" value="Week"/>
+</field>
+<field id="day"><phrase id="fldcaption" value="Day"/>
+</field>
+<field id="hour"><phrase id="fldcaption" value="Hour"/>
+</field>
+<field id="pageview"><phrase id="fldcaption" value="Page View"/>
+</field>
+<field id="visit"><phrase id="fldcaption" value="Visit"/>
+</field>
+</table>
+<table id="tbl_group"><phrase id="tblcaption" value="Group"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="Name"/>
+</field>
+<field id="is_active"><phrase id="fldcaption" value="Is Active"/>
+</field>
+</table>
+<table id="tbl_group_profile"><phrase id="tblcaption" value="Group - Profile"/>
+<field id="id_group"><phrase id="fldcaption" value="Group"/>
+</field>
+<field id="id_profile"><phrase id="fldcaption" value="Profile"/>
+</field>
+</table>
+<table id="tbl_index_stat"><phrase id="tblcaption" value="Indexed Pages"/>
+<field id="id_profile"><phrase id="fldcaption" value="Profile"/>
+</field>
+<field id="stat_date"><phrase id="fldcaption" value="Date"/>
+</field>
+<field id="year"><phrase id="fldcaption" value="Year"/>
+</field>
+<field id="month"><phrase id="fldcaption" value="Month"/>
+</field>
+<field id="week"><phrase id="fldcaption" value="Week"/>
+</field>
+<field id="google"><phrase id="fldcaption" value="Google"/>
+</field>
+<field id="yahoo"><phrase id="fldcaption" value="Yahoo!"/>
+</field>
+<field id="bing"><phrase id="fldcaption" value="Bing"/>
+</field>
+</table>
+<table id="tbl_profile"><phrase id="tblcaption" value="Profile"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="Name"/>
+</field>
+<field id="ga_username"><phrase id="fldcaption" value="GA Username"/>
+</field>
+<field id="ga_passwd"><phrase id="fldcaption" value="GA Password"/>
+</field>
+<field id="ga_profileid"><phrase id="fldcaption" value="GA Profile ID"/>
+</field>
+<field id="url"><phrase id="fldcaption" value="URL"/>
+</field>
+<field id="fb_pageid"><phrase id="fldcaption" value="FB Page ID"/>
+</field>
+<field id="twitter_page"><phrase id="fldcaption" value="Twitter Username"/>
+</field>
+<field id="is_wordpress"><phrase id="fldcaption" value="Is Wordpress"/>
+</field>
+<field id="is_blogger"><phrase id="fldcaption" value="Is Blogger"/>
+</field>
+<field id="is_active"><phrase id="fldcaption" value="Is Active"/>
+</field>
+</table>
+<table id="tbl_rank_stat"><phrase id="tblcaption" value="Rank"/>
+<field id="id_profile"><phrase id="fldcaption" value="Profile"/>
+</field>
+<field id="stat_date"><phrase id="fldcaption" value="Date"/>
+</field>
+<field id="year"><phrase id="fldcaption" value="Year"/>
+</field>
+<field id="month"><phrase id="fldcaption" value="Month"/>
+</field>
+<field id="week"><phrase id="fldcaption" value="Week"/>
+</field>
+<field id="alexa_rank"><phrase id="fldcaption" value="Alexa Rank"/>
+</field>
+<field id="google_pagerank"><phrase id="fldcaption" value="Google Page Rank"/>
+</field>
+</table>
+<table id="tbl_target"><phrase id="tblcaption" value="Target"/>
+<field id="id_profile"><phrase id="fldcaption" value="Profile"/>
+</field>
+<field id="year"><phrase id="fldcaption" value="Year"/>
+</field>
+<field id="month"><phrase id="fldcaption" value="Month"/>
+</field>
+<field id="visit"><phrase id="fldcaption" value="Visit"/>
+</field>
+<field id="pageview"><phrase id="fldcaption" value="Page View"/>
+</field>
+<field id="alexarank"><phrase id="fldcaption" value="Alexa Rank"/>
+</field>
+<field id="googlepagerank"><phrase id="fldcaption" value="Google Page Rank"/>
+</field>
+<field id="googleindexedpage"><phrase id="fldcaption" value="Google Indexed Page"/>
+</field>
+<field id="yahooindexedpage"><phrase id="fldcaption" value="Yahoo! Indexed Page"/>
+</field>
+<field id="bingindexedpage"><phrase id="fldcaption" value="Bing Indexed Page"/>
+</field>
+<field id="twitterfollower"><phrase id="fldcaption" value="Twitter Follower"/>
+</field>
+<field id="facebookfan"><phrase id="fldcaption" value="Facebook Fans"/>
+</field>
+<field id="yahoobacklink"><phrase id="fldcaption" value="Yahoo! Backlink"/>
+</field>
+<field id="blwbacklink"><phrase id="fldcaption" value="BLW Backlink"/>
+</field>
+<field id="blcbacklink"><phrase id="fldcaption" value="Dirgio.com Backlink"/>
+</field>
+</table>
+<table id="tbl_twitter_stat"><phrase id="tblcaption" value="Twitter"/>
+<field id="id_profile"><phrase id="fldcaption" value="Profile"/>
+</field>
+<field id="stat_date"><phrase id="fldcaption" value="Date"/>
+</field>
+<field id="year"><phrase id="fldcaption" value="Year"/>
+</field>
+<field id="month"><phrase id="fldcaption" value="Month"/>
+</field>
+<field id="week"><phrase id="fldcaption" value="Week"/>
+</field>
+<field id="following"><phrase id="fldcaption" value="Following"/>
+</field>
+<field id="followers"><phrase id="fldcaption" value="Followers"/>
+</field>
+<field id="listed"><phrase id="fldcaption" value="Listed"/>
+</field>
+<field id="tweets"><phrase id="fldcaption" value="Tweets"/>
+</field>
+</table>
+<table id="v_backlink_before_last_date"><phrase id="tblcaption" value="v backlink before last date"/>
+<field id="id_profile"><phrase id="fldcaption" value="id profile"/>
+</field>
+<field id="before_last_date"><phrase id="fldcaption" value="before last date"/>
+</field>
+</table>
+<table id="v_backlink_last_date"><phrase id="tblcaption" value="v backlink last date"/>
+<field id="id_profile"><phrase id="fldcaption" value="id profile"/>
+</field>
+<field id="last_date"><phrase id="fldcaption" value="last date"/>
+</field>
+</table>
+<table id="v_dashboard"><phrase id="tblcaption" value="v dashboard"/>
+<field id="id_group"><phrase id="fldcaption" value="id group"/>
+</field>
+<field id="id_profile"><phrase id="fldcaption" value="id profile"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="name"/>
+</field>
+<field id="url"><phrase id="fldcaption" value="url"/>
+</field>
+<field id="bw_backlink"><phrase id="fldcaption" value="bw backlink"/>
+</field>
+<field id="bc_backlink"><phrase id="fldcaption" value="bc backlink"/>
+</field>
+<field id="yahoo_backlink"><phrase id="fldcaption" value="yahoo backlink"/>
+</field>
+<field id="backlink_asof"><phrase id="fldcaption" value="backlink asof"/>
+</field>
+<field id="bw_backlink_before"><phrase id="fldcaption" value="bw backlink before"/>
+</field>
+<field id="bc_backlink_before"><phrase id="fldcaption" value="bc backlink before"/>
+</field>
+<field id="yahoo_backlink_before"><phrase id="fldcaption" value="yahoo backlink before"/>
+</field>
+<field id="fans"><phrase id="fldcaption" value="fans"/>
+</field>
+<field id="unsubscribe"><phrase id="fldcaption" value="unsubscribe"/>
+</field>
+<field id="facebook_asof"><phrase id="fldcaption" value="facebook asof"/>
+</field>
+<field id="fans_before"><phrase id="fldcaption" value="fans before"/>
+</field>
+<field id="unsubscribe_before"><phrase id="fldcaption" value="unsubscribe before"/>
+</field>
+<field id="followers"><phrase id="fldcaption" value="followers"/>
+</field>
+<field id="tweets"><phrase id="fldcaption" value="tweets"/>
+</field>
+<field id="twitter_asof"><phrase id="fldcaption" value="twitter asof"/>
+</field>
+<field id="followers_before"><phrase id="fldcaption" value="followers before"/>
+</field>
+<field id="tweets_before"><phrase id="fldcaption" value="tweets before"/>
+</field>
+<field id="pageview"><phrase id="fldcaption" value="pageview"/>
+</field>
+<field id="visit"><phrase id="fldcaption" value="visit"/>
+</field>
+<field id="ga_asof"><phrase id="fldcaption" value="ga asof"/>
+</field>
+<field id="pageview_before"><phrase id="fldcaption" value="pageview before"/>
+</field>
+<field id="visit_before"><phrase id="fldcaption" value="visit before"/>
+</field>
+<field id="indexed_google"><phrase id="fldcaption" value="indexed google"/>
+</field>
+<field id="indexed_yahoo"><phrase id="fldcaption" value="indexed yahoo"/>
+</field>
+<field id="indexed_bing"><phrase id="fldcaption" value="indexed bing"/>
+</field>
+<field id="indexed_asof"><phrase id="fldcaption" value="indexed asof"/>
+</field>
+<field id="indexed_google_before"><phrase id="fldcaption" value="indexed google before"/>
+</field>
+<field id="indexed_yahoo_before"><phrase id="fldcaption" value="indexed yahoo before"/>
+</field>
+<field id="indexed_bing_before"><phrase id="fldcaption" value="indexed bing before"/>
+</field>
+<field id="alexa_rank"><phrase id="fldcaption" value="alexa rank"/>
+</field>
+<field id="google_pagerank"><phrase id="fldcaption" value="google pagerank"/>
+</field>
+<field id="rank_asof"><phrase id="fldcaption" value="rank asof"/>
+</field>
+<field id="alexa_rank_before"><phrase id="fldcaption" value="alexa rank before"/>
+</field>
+<field id="google_pagerank_before"><phrase id="fldcaption" value="google pagerank before"/>
+</field>
+<field id="year"><phrase id="fldcaption" value="year"/>
+</field>
+<field id="month"><phrase id="fldcaption" value="month"/>
+</field>
+<field id="visit_target"><phrase id="fldcaption" value="visit target"/>
+</field>
+<field id="pageview_target"><phrase id="fldcaption" value="pageview target"/>
+</field>
+<field id="alexa_rank_target"><phrase id="fldcaption" value="alexa rank target"/>
+</field>
+<field id="google_pagerank_target"><phrase id="fldcaption" value="google pagerank target"/>
+</field>
+<field id="indexed_google_target"><phrase id="fldcaption" value="indexed google target"/>
+</field>
+<field id="indexed_yahoo_target"><phrase id="fldcaption" value="indexed yahoo target"/>
+</field>
+<field id="indexed_bing_target"><phrase id="fldcaption" value="indexed bing target"/>
+</field>
+<field id="followers_target"><phrase id="fldcaption" value="followers target"/>
+</field>
+<field id="fans_target"><phrase id="fldcaption" value="fans target"/>
+</field>
+<field id="yahoo_backlink_target"><phrase id="fldcaption" value="yahoo backlink target"/>
+</field>
+<field id="bw_backlink_target"><phrase id="fldcaption" value="bw backlink target"/>
+</field>
+<field id="bc_backlink_target"><phrase id="fldcaption" value="bc backlink target"/>
+</field>
+</table>
+<table id="v_facebook_before_last_date"><phrase id="tblcaption" value="v facebook before last date"/>
+<field id="id_profile"><phrase id="fldcaption" value="id profile"/>
+</field>
+<field id="before_last_date"><phrase id="fldcaption" value="before last date"/>
+</field>
+</table>
+<table id="v_facebook_last_date"><phrase id="tblcaption" value="v facebook last date"/>
+<field id="id_profile"><phrase id="fldcaption" value="id profile"/>
+</field>
+<field id="last_date"><phrase id="fldcaption" value="last date"/>
+</field>
+</table>
+<table id="v_ga_before_last_date"><phrase id="tblcaption" value="v ga before last date"/>
+<field id="id_profile"><phrase id="fldcaption" value="id profile"/>
+</field>
+<field id="before_last_date"><phrase id="fldcaption" value="before last date"/>
+</field>
+</table>
+<table id="v_ga_last_date"><phrase id="tblcaption" value="v ga last date"/>
+<field id="id_profile"><phrase id="fldcaption" value="id profile"/>
+</field>
+<field id="last_date"><phrase id="fldcaption" value="last date"/>
+</field>
+</table>
+<table id="v_ga_stat_daily"><phrase id="tblcaption" value="v ga stat daily"/>
+<field id="id_profile"><phrase id="fldcaption" value="id profile"/>
+</field>
+<field id="stat_date"><phrase id="fldcaption" value="stat date"/>
+</field>
+<field id="pageview"><phrase id="fldcaption" value="pageview"/>
+</field>
+<field id="visit"><phrase id="fldcaption" value="visit"/>
+</field>
+</table>
+<table id="v_index_before_last_date"><phrase id="tblcaption" value="v index before last date"/>
+<field id="id_profile"><phrase id="fldcaption" value="id profile"/>
+</field>
+<field id="before_last_date"><phrase id="fldcaption" value="before last date"/>
+</field>
+</table>
+<table id="v_index_last_date"><phrase id="tblcaption" value="v index last date"/>
+<field id="id_profile"><phrase id="fldcaption" value="id profile"/>
+</field>
+<field id="last_date"><phrase id="fldcaption" value="last date"/>
+</field>
+</table>
+<table id="v_rank_before_last_date"><phrase id="tblcaption" value="v rank before last date"/>
+<field id="id_profile"><phrase id="fldcaption" value="id profile"/>
+</field>
+<field id="before_last_date"><phrase id="fldcaption" value="before last date"/>
+</field>
+</table>
+<table id="v_rank_last_date"><phrase id="tblcaption" value="v rank last date"/>
+<field id="id_profile"><phrase id="fldcaption" value="id profile"/>
+</field>
+<field id="last_date"><phrase id="fldcaption" value="last date"/>
+</field>
+</table>
+<table id="v_twitter_before_last_date"><phrase id="tblcaption" value="v twitter before last date"/>
+<field id="id_profile"><phrase id="fldcaption" value="id profile"/>
+</field>
+<field id="before_last_date"><phrase id="fldcaption" value="before last date"/>
+</field>
+</table>
+<table id="v_twitter_last_date"><phrase id="tblcaption" value="v twitter last date"/>
+<field id="id_profile"><phrase id="fldcaption" value="id profile"/>
+</field>
+<field id="last_date"><phrase id="fldcaption" value="last date"/>
+</field>
+</table>
+<table id="tbl_user"><phrase id="tblcaption" value="User"/>
+<field id="id_user"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="username"><phrase id="fldcaption" value="Username"/>
+</field>
+<field id="passwd"><phrase id="fldcaption" value="Password"/>
+</field>
+<field id="id_userlevel"><phrase id="fldcaption" value="User Level"/>
+</field>
+</table>
+<table id="tbl_user_level"><phrase id="tblcaption" value="tbl user level"/>
+<field id="userlevelid"><phrase id="fldcaption" value="userlevelid"/>
+</field>
+<field id="userlevelname"><phrase id="fldcaption" value="userlevelname"/>
+</field>
+</table>
+<table id="tbl_user_level_permissions"><phrase id="tblcaption" value="tbl user level permissions"/>
+<field id="userlevelid"><phrase id="fldcaption" value="userlevelid"/>
+</field>
+<field id="ztablename"><phrase id="fldcaption" value="tablename"/>
+</field>
+<field id="permission"><phrase id="fldcaption" value="permission"/>
+</field>
+</table>
+</project>
+</ew-language>

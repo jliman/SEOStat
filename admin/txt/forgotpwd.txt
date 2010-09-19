@@ -1,0 +1,19 @@
+Subject: Password Request
+From: <!--$From-->
+To: <!--$To-->
+Cc:
+Bcc:
+Format: TEXT
+
+Dear Sir/Madam,
+
+Please see below for the requested information:
+
+User Name: <!--$UserName-->
+Password: <!--$Password-->
+
+Please feel free to contact us in case of further queries.
+
+Best Regards,
+Support
+
