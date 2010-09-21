@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/seostat/!svn/ver/6/trunk/lib/libcurlemu-1.0.4
+END
+libcurlemu.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/seostat/!svn/ver/6/trunk/lib/libcurlemu-1.0.4/libcurlemu.inc.php
+END
+libcurlnative.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/seostat/!svn/ver/6/trunk/lib/libcurlemu-1.0.4/libcurlnative.inc.php
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/seostat/!svn/ver/6/trunk/lib/libcurlemu-1.0.4/LICENSE
+END
+class_HTTPRetriever.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/seostat/!svn/ver/6/trunk/lib/libcurlemu-1.0.4/class_HTTPRetriever.php
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/seostat/!svn/ver/6/trunk/lib/libcurlemu-1.0.4/README
+END
+libcurlexternal.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/seostat/!svn/ver/6/trunk/lib/libcurlemu-1.0.4/libcurlexternal.inc.php
+END
