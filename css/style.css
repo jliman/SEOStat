@@ -1,0 +1,81 @@
+form {
+	margin: 0px;
+}
+h1 {
+	font-size: 16px;
+}
+h2 {
+	font-size: 14px;
+}
+h3 {
+	font-size: 12px;
+}
+body, table {
+	font-family: 'Lucida Grande', Tahoma, Arial;
+	font-size: 11px;
+}
+.seostat {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+.seostat td {
+	padding: 3px;
+	vertical-align: middle;
+	border:1px solid black;
+}
+.category { 
+	background-color: #666;
+	color: white;
+	font-weight: bold;
+	text-align:center;
+}
+.section {
+	background-color: #CCC;
+	font-weight: bold;
+}
+.center {
+	text-align:center;
+}
+.seostat .indent1 {
+	padding-left:15px;
+	min-width: 125px;
+}
+.seostat .indent2 {
+	padding-left:30px;
+}
+.sub {
+	font-size: 10px;
+	text-align:center;
+	min-width: 50px;
+}
+.profile {
+	text-align: center;
+	font-weight: bold;
+	width: 100px;
+	color: blue;
+}
+.profile a, .profile a:visited {
+	color: blue;
+}
+.profile a:hover {
+	text-decoration:none;
+}
+.number {
+	text-align: right;
+	border-right: none;
+}
+.ok {
+	color: green;
+}
+.notok {
+	color: red;
+}
+.indicator {
+	vertical-align: middle;
+	text-align: center;
+	border-left: none !important;
+}
+.jls_combo {
+	margin:2px 0 0 2px;
+	padding:0;
+}

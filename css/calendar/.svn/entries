@@ -1,0 +1,71 @@
+8
+
+dir
+5
+http://julius@192.168.24.118/svn/seostat/trunk/css/calendar
+http://julius@192.168.24.118/svn/seostat
+
+
+
+2010-04-27T04:44:20.621168Z
+3
+julius
+
+
+svn:special svn:externals svn:needs-lock
+
+outline
+dir
+
+minimal_greenstripes
+dir
+
+vista
+dir
+
+minimal
+dir
+
+leopard
+dir
+
+radial_orange
+dir
+
+gloss
+dir
+
+minimal_redstripes
+dir
+
+radial
+dir
+
+nitobi.reset.css
+file
+
+
+
+
+2009-02-09T06:42:12.000000Z
+f84e1ca5c5f51ef3952114b97331c754
+2010-04-27T04:44:20.621168Z
+3
+julius
+has-props
+
+flex
+dir
+
+minimal_stripes
+dir
+
+radial_blue
+dir
+
+minimal_bluestripes
+dir
+
+template
+dir
+

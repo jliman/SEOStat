@@ -1,0 +1,189 @@
+/* Background */
+.minimal_redstripes .ntb-calendar {
+	width: 180px;
+	height: 190px;
+	color: #888;
+    text-align: center;
+    font-weight: normal;
+	background: #fff;
+	border-left: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	background: url(assets/background.png) repeat-x left top;
+	padding-top: 2px;
+}
+
+/* General */
+.minimal_redstripes .ntb-calendar-container a {
+    text-decoration: none;
+}
+.minimal_redstripes .ntb-calendar-monthheader td,
+.minimal_redstripes .ntb-calendar-header td,
+.minimal_redstripes .ntb-calendar-day,
+.minimal_redstripes .ntb-calendar-dayheader {
+	text-align: center;
+    vertical-align: middle;
+}
+.minimal_redstripes .ntb-calendar-container {
+    font-family: Helvetica,Arial,Verdana,sans-serif;
+    font-size: 11px;
+}
+
+/* Container & Basic font */
+.minimal_redstripes .ntb-calendar-container {
+	-moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+	border-top: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+
+/* Header (Multi) */
+.minimal_redstripes .ntb-calendar-header {
+	height: 20px;
+	border-left: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	background: #d28b94;
+}
+.minimal_redstripes .ntb-calendar-title {	
+	color: #fff;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+/* Header (Month) */
+.minimal_redstripes .ntb-calendar-monthheader {
+    height: 23px;
+}
+.minimal_redstripes a.ntb-calendar-month, .minimal_redstripes a.ntb-calendar-year {
+    color: #fff;
+}
+
+/* Header Buttons */
+.minimal_redstripes a.ntb-calendar-prev, .minimal_redstripes a.ntb-calendar-next {
+	font-size: 0;
+	height: 21px;
+	width: 21px;
+	display: block;
+	margin: 2px 1px 0 1px;
+	background: url(assets/prev.gif) top left no-repeat;
+	float: left;
+
+}
+.minimal_redstripes a.ntb-calendar-next {
+	background: url(assets/next.gif) top left no-repeat;
+	float: right;
+}
+
+.minimal_redstripes a.ntb-calendar-nextdis {
+	background: url(assets/next_dis.gif) top left no-repeat;
+	float: right;
+	cursor: default;
+}
+
+.minimal_redstripes a.ntb-calendar-prevdis {
+	background: url(assets/prev_dis.gif) top left no-repeat;
+	float: left;
+	cursor: default;
+}
+
+/* Days (Week) */
+.minimal_redstripes .ntb-calendar-dayheader {
+	height: 25px;
+	color: #9b2d39;
+}
+
+/* Days */
+.minimal_redstripes .ntb-calendar-day {
+    color: #fff;
+    cursor: pointer;
+    height: 17px;
+	line-height: 17px;
+	margin: 3px;
+}
+.minimal_redstripes a.ntb-calendar-thismonth:hover {
+	color: #d28b94;
+}
+.minimal_redstripes .ntb-calendar a.ntb-calendar-disabled, .minimal_redstripes .ntb-calendar a.ntb-calendar-disabled:hover {
+	color: #74222b;
+	cursor: default;
+}
+.minimal_redstripes .ntb-calendar a.ntb-calendar-event {
+	background: #74222b;
+}
+.minimal_redstripes .ntb-calendar a.ntb-calendar-currentday {
+	background: #d28b94;
+    color: #fff;
+}
+
+/* Days (Last & Nex Month) */
+.minimal_redstripes .ntb-calendar-lastmonth, .minimal_redstripes .ntb-calendar-nextmonth {
+	color: #74222b;
+	cursor: default;
+}
+
+/* Text Input */
+.minimal_redstripes .ntb-inputcontainer {
+	border: 1px solid #d28b94;
+	font-size: 11px;
+	width: 150px;
+}
+
+.minimal_redstripes input.ntb-dateinput {
+	height: 18px;
+	padding: 0px;
+	border: 0px;
+	margin: 2px 0px 0px 2px;
+	width: 140px;
+	background-color: inherit;
+}
+
+.minimal_redstripes input.ntb-dateinput:focus {
+}
+.minimal_redstripes input.ntb-dateinput-empty {
+	background:#333444;
+}
+
+.minimal_redstripes .ntb-invalid {
+	font-weight: bold;
+	background-color: #eee;
+	border: 1px solid #ff6666;
+	font-size: 11px;
+	width: 150px;
+}
+
+/* Calender Button */
+.minimal_redstripes .ntb-calendar-button {
+	height: 20px;
+	width: 21px;
+	background: #d28b94 url(assets/button.gif) top left no-repeat;
+	border: 1px solid #d28b94;
+	cursor: pointer;
+	margin-left: 2px;
+}
+
+/* Chooser Navigation */
+.minimal_redstripes .ntb-calendar-navcontainer {
+	border: 1px solid #d28b94;
+	width: 150px;
+    background: #fff;
+}
+.minimal_redstripes .ntb-calendar-navcontainer label {
+	display: block;
+}
+.minimal_redstripes .ntb-calendar-navcontainer select, .minimal_redstripes .ntb-calendar-navcontainer input, .minimal_redstripes .ntb-calendar-navcontainer button {
+	font-size: 11px;
+}
+.minimal_redstripes .ntb-calendar-navcontainer button {
+	margin-right: 8px;
+}
+.minimal_redstripes .ntb-calendar-navcontainer .ntb-calendar-monthcontainer,
+.minimal_redstripes .ntb-calendar-navcontainer .ntb-calendar-yearcontainer,
+.minimal_redstripes .ntb-calendar-navcontainer .ntb-calendar-controls {
+	padding: 5px 15px;	
+}
+.minimal_redstripes .ntb-calendar-navcontainer .ntb-calendar-controls {
+	padding-bottom: 10px;
+}
+.minimal_redstripes .ntb-calendar-navcontainer .ntb-calendar-navms {
+	width: 120px;
+}

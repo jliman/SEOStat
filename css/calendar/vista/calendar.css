@@ -1,0 +1,170 @@
+/* Background */
+.vista .ntb-calendar {
+	width: 150px;
+	height: 180px;
+	color: #888;
+    text-align: center;
+    font-weight: normal;
+	background: url(assets/background.gif) no-repeat left top;
+	padding: 4px 9px 0px 11px;
+}
+
+/* General */
+.vista .ntb-calendar-container a {
+    text-decoration: none;
+}
+.vista .ntb-calendar-monthheader td,
+.vista .ntb-calendar-header td,
+.vista .ntb-calendar-day,
+.vista .ntb-calendar-dayheader {
+	text-align: center;
+    vertical-align: middle;
+}
+.vista .ntb-calendar-container {
+    font-family: Helvetica,Arial,Verdana,sans-serif;
+    font-size: 11px;
+}
+
+/* Container & Basic font */
+.vista .ntb-calendar-container {
+	-moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+/* Header (Multi) */
+.vista .ntb-calendar-header {
+	height: 20px;
+	background: #d1eaff;
+	border: 1px solid #a0a0a0;
+}
+.vista .ntb-calendar-title {	
+	color: #000;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+/* Header (Month) */
+.vista .ntb-calendar-monthheader {
+    height: 22px;
+}
+.vista a.ntb-calendar-month, .vista a.ntb-calendar-year {
+    color: #000260;
+}
+
+/* Header Buttons */
+.vista a.ntb-calendar-prev, .vista a.ntb-calendar-next {
+    color: #4a4a4a;
+	font-size: 0;
+	height: 19px;
+	width: 19px;
+	display: block;
+	margin: 7px 2px 0 2px;
+	background: url(assets/prev.gif) top left no-repeat;
+	float: left;
+
+}
+.vista a.ntb-calendar-next {
+	background: url(assets/next.gif) top left no-repeat;
+	float: right;
+}
+
+/* Days (Week) */
+.vista .ntb-calendar-dayheader {
+	height: 25px;
+	color: #000;
+}
+
+/* Days */
+.vista .ntb-calendar-day {
+    color: #444;
+    cursor: pointer;
+    height: 13px;
+	line-height: 13px;
+	margin: 1px 2px;
+	border: 1px solid #f0f0f0;
+}
+.vista a.ntb-calendar-thismonth:hover {
+	color: #3875d7;
+}
+.vista .ntb-calendar a.ntb-calendar-disabled {
+	color: #aaa;
+	cursor: default;
+}
+.vista .ntb-calendar a.ntb-calendar-event {
+	border: 1px solid #aaa;
+}
+.vista .ntb-calendar a.ntb-calendar-currentday {
+	background: #3875d7;
+	color: #fff;
+}
+
+/* Days (Last & Nex Month) */
+.vista .ntb-inputcontainer {
+	border: 1px solid #dddddd;
+	border-top-color: #7c7c7c;
+	border-left-color: #c3c3c3;
+	font-size: 11px;
+	width: 150px;
+}
+
+.vista input.ntb-dateinput {
+	height: 18px;
+	padding: 0px;
+	border: 0px;
+	margin: 2px 0px 0px 2px;
+	width: 140px;
+	background-color: inherit;
+}
+
+.vista input.ntb-dateinput:focus {
+}
+.vista input.ntb-dateinput-empty {
+	background:#333444;
+}
+
+.vista .ntb-invalid {
+	font-weight: bold;
+	background-color: #fff;
+	border: 1px solid #ff0000;
+	border-top-color: #bb0000;
+	border-left-color: #bb0000;
+	font-size: 11px;
+	width: 150px;
+}
+
+/* Calender Button */
+.vista .ntb-calendar-button {
+	height: 22px;
+	width: 25px;
+	background: transparent url(assets/button.gif) top left no-repeat;
+	cursor: pointer;
+	margin-left: 2px;
+}
+
+/* Chooser Navigation */
+.vista .ntb-calendar-navcontainer {
+	border: 1px solid #dfdfdf;
+	width: 151px;
+    background: #f0f0f0;
+}
+.vista .ntb-calendar-navcontainer label {
+	display: block;
+}
+.vista .ntb-calendar-navcontainer select, .vista .ntb-calendar-navcontainer input, .vista .ntb-calendar-navcontainer button {
+	font-size: 11px;
+}
+.vista .ntb-calendar-navcontainer button {
+	margin-right: 8px;
+}
+.vista .ntb-calendar-navcontainer .ntb-calendar-monthcontainer,
+.vista .ntb-calendar-navcontainer .ntb-calendar-yearcontainer,
+.vista .ntb-calendar-navcontainer .ntb-calendar-controls {
+	padding: 5px 15px;	
+}
+.vista .ntb-calendar-navcontainer .ntb-calendar-controls {
+	padding-bottom: 10px;
+}
+.vista .ntb-calendar-navcontainer .ntb-calendar-navms {
+	width: 120px;
+}

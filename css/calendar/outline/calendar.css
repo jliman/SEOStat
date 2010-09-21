@@ -1,0 +1,189 @@
+/* Background */
+.outline .ntb-calendar {
+	width: 180px;
+	height: 192px;
+	color: #888;
+    text-align: center;
+    font-weight: normal;
+	background: url(assets/background.gif) no-repeat left top;
+}
+
+/* General */
+.outline .ntb-calendar-container a {
+    text-decoration: none;
+}
+.outline .ntb-calendar-monthheader td,
+.outline .ntb-calendar-header td,
+.outline .ntb-calendar-day,
+.outline .ntb-calendar-dayheader {
+	text-align: center;
+    vertical-align: middle;
+}
+.outline .ntb-calendar-container {
+    font-family: Helvetica,Arial,Verdana,sans-serif;
+    font-size: 11px;
+}
+
+/* Container & Basic font */
+.outline .ntb-calendar-container {
+	-moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+/* Header (Multi) */
+.outline .ntb-calendar-header {
+	height: 20px;
+	background: url(assets/top_header.png) top left repeat-x;
+	background: #fff;
+	border: 1px solid #888;
+}
+.outline .ntb-calendar-title {	
+	color: #4A4A4A;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+/* Header (Month) */
+.outline .ntb-calendar-monthheader {
+    height: 23px;
+}
+.outline a.ntb-calendar-month, .outline a.ntb-calendar-year {
+    color: #4a4a4a;
+}
+
+/* Header Buttons */
+.outline a.ntb-calendar-prev, .outline a.ntb-calendar-next {
+    color: #4a4a4a;
+	font-size: 0;
+	height: 21px;
+	width: 21px;
+	display: block;
+	margin: 2px 1px 0 1px;
+	background: url(assets/prev.gif) top left no-repeat;
+	float: left;
+
+}
+.outline a.ntb-calendar-next {
+	background: url(assets/next.gif) top left no-repeat;
+	float: right;
+}
+
+.outline a.ntb-calendar-nextdis {
+	background: url(assets/next_dis.gif) top left no-repeat;
+	float: right;
+	cursor: default;
+}
+
+.outline a.ntb-calendar-prevdis {
+	background: url(assets/prev_dis.gif) top left no-repeat;
+	float: left;
+	cursor: default;
+}
+
+/* Days (Week) */
+.outline .ntb-calendar-dayheader {
+	height: 25px;
+	color: #aaa;
+}
+
+/* Days */
+.outline .ntb-calendar-day {
+    color: #444;
+    cursor: pointer;
+    height: 17px;
+	line-height: 17px;
+	margin: 2px 3px;
+	border: 1px solid #fff;
+}
+.outline a.ntb-calendar-thismonth:hover {
+	color: #3875d7;
+}
+.outline .ntb-calendar a.ntb-calendar-disabled {
+	color: #aaa;
+	cursor: default;
+}
+.outline .ntb-calendar a.ntb-calendar-event {
+	border: 1px solid #aaa;
+}
+.outline .ntb-calendar a.ntb-calendar-currentday {
+	background: #3875d7;
+	color: #fff;
+}
+
+/* Days (Last & Nex Month) */
+.outline .ntb-calendar-lastmonth, .outline .ntb-calendar-nextmonth {
+	color: #bbb;
+	cursor: default;
+}
+
+/* Text Input */
+.outline .ntb-inputcontainer {
+	border: 1px solid #dddddd;
+	border-top-color: #7c7c7c;
+	border-left-color: #c3c3c3;
+	font-size: 11px;
+	width: 150px;
+}
+
+.outline input.ntb-dateinput {
+	height: 18px;
+	padding: 0px;
+	border: 0px;
+	margin: 2px 0px 0px 2px;
+	width: 140px;
+	background-color: inherit;
+}
+
+.outline input.ntb-dateinput:focus {
+}
+.outline input.ntb-dateinput-empty {
+	background:#333444;
+}
+
+.outline .ntb-invalid {
+	font-weight: bold;
+	background-color: #fff;
+	border: 1px solid #ff0000;
+	border-top-color: #bb0000;
+	border-left-color: #bb0000;
+	font-size: 11px;
+	width: 150px;
+}
+
+/* Calender Button */
+.outline .ntb-calendar-button {
+	height: 22px;
+	width: 25px;
+	background: transparent url(assets/button.gif) top left no-repeat;
+	cursor: pointer;
+	margin-left: 2px;
+}
+
+/* Chooser Navigation */
+.outline .ntb-calendar-navcontainer {
+	border: 1px solid #a1a1a1;
+	border-top: none;
+	width: 150px;
+    background: #f0f0f0;
+}
+.outline .ntb-calendar-navcontainer label {
+	display: block;
+}
+.outline .ntb-calendar-navcontainer select, .outline .ntb-calendar-navcontainer input, .outline .ntb-calendar-navcontainer button {
+	font-size: 11px;
+}
+.outline .ntb-calendar-navcontainer button {
+	margin-right: 8px;
+}
+.outline .ntb-calendar-navcontainer .ntb-calendar-monthcontainer,
+.outline .ntb-calendar-navcontainer .ntb-calendar-yearcontainer,
+.outline .ntb-calendar-navcontainer .ntb-calendar-controls {
+	padding: 5px 15px;	
+}
+.outline .ntb-calendar-navcontainer .ntb-calendar-controls {
+	padding-bottom: 10px;
+}
+.outline .ntb-calendar-navcontainer .ntb-calendar-navms {
+	width: 120px;
+}

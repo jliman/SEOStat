@@ -1,0 +1,41 @@
+
+        @import url("calendar/nitobi.reset.css");
+    
+        @import url("calendar/gloss/calendar.css");
+    
+        @import url("calendar/minimal/calendar.css");
+    
+        @import url("calendar/minimal_bluestripes/calendar.css");
+    
+        @import url("calendar/minimal_greenstripes/calendar.css");
+    
+        @import url("calendar/minimal_redstripes/calendar.css");
+    
+        @import url("calendar/minimal_stripes/calendar.css");
+    
+        @import url("calendar/outline/calendar.css");
+    
+        @import url("calendar/radial_blue/calendar.css");
+    
+        @import url("calendar/radial/calendar.css");
+    
+        @import url("calendar/radial_orange/calendar.css");
+    
+        @import url("calendar/flex/calendar.css");
+    
+        @import url("calendar/leopard/calendar.css");
+    
+        @import url("calendar/vista/calendar.css");
+    .nitobi-hide {
+	display:none;
+}
+
+.ntb-effects-small {
+	clear:both;
+	display:block;
+	float:none;
+	height:0px;
+	//height:1px;
+	overflow:hidden;
+	width:auto;
+}

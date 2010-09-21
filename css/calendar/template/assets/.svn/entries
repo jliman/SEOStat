@@ -1,0 +1,81 @@
+8
+
+dir
+5
+http://julius@192.168.24.118/svn/seostat/trunk/css/calendar/template/assets
+http://julius@192.168.24.118/svn/seostat
+
+
+
+2010-04-27T04:44:20.621168Z
+3
+julius
+
+
+svn:special svn:externals svn:needs-lock
+
+button.gif
+file
+
+
+
+
+2009-02-09T06:42:12.000000Z
+322b9585f04110721f60d5a70c469589
+2010-04-27T04:44:20.621168Z
+3
+julius
+has-props
+
+prev.gif
+file
+
+
+
+
+2009-02-09T06:42:12.000000Z
+1fd887b1d2a889bcb7f08937a72c147e
+2010-04-27T04:44:20.621168Z
+3
+julius
+has-props
+
+background.png
+file
+
+
+
+
+2009-02-09T06:42:12.000000Z
+10d1745d82aa00615255ac758fd5ca15
+2010-04-27T04:44:20.621168Z
+3
+julius
+has-props
+
+next.gif
+file
+
+
+
+
+2009-02-09T06:42:12.000000Z
+272dfcd72139321b6aa95059e70c76a6
+2010-04-27T04:44:20.621168Z
+3
+julius
+has-props
+
+multi_header.png
+file
+
+
+
+
+2009-02-09T06:42:14.000000Z
+9937e98b3cc985e5d653edc0cae7175c
+2010-04-27T04:44:20.621168Z
+3
+julius
+has-props
+

@@ -1,0 +1,32 @@
+8
+
+dir
+5
+http://julius@192.168.24.118/svn/seostat/trunk/css/calendar/minimal_bluestripes
+http://julius@192.168.24.118/svn/seostat
+
+
+
+2010-04-27T04:44:20.621168Z
+3
+julius
+
+
+svn:special svn:externals svn:needs-lock
+
+calendar.css
+file
+
+
+
+
+2009-02-09T06:42:12.000000Z
+0a1b9bb002fe1e74d5611f411d315c16
+2010-04-27T04:44:20.621168Z
+3
+julius
+has-props
+
+assets
+dir
+

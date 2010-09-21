@@ -1,0 +1,32 @@
+8
+
+dir
+5
+http://julius@192.168.24.118/svn/seostat/trunk/css/calendar/radial_orange
+http://julius@192.168.24.118/svn/seostat
+
+
+
+2010-04-27T04:44:20.621168Z
+3
+julius
+
+
+svn:special svn:externals svn:needs-lock
+
+calendar.css
+file
+
+
+
+
+2009-02-09T06:42:12.000000Z
+66505bb063a8ccff513b5351eb6106f2
+2010-04-27T04:44:20.621168Z
+3
+julius
+has-props
+
+assets
+dir
+

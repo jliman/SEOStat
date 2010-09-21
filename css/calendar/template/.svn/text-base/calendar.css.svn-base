@@ -1,0 +1,178 @@
+/* Background */
+.template .ntb-calendar {
+	width: 180px;
+	height: 192px;
+	color: #888;
+    text-align: center;
+    font-weight: normal;
+	background: url(assets/background.png) no-repeat left top;
+}
+
+/* General */
+.template .ntb-calendar-container a {
+    text-decoration: none;
+}
+.template .ntb-calendar-monthheader td,
+.template .ntb-calendar-header td,
+.template .ntb-calendar-day,
+.template .ntb-calendar-dayheader {
+	text-align: center;
+    vertical-align: middle;
+}
+.template .ntb-calendar-container {
+    font-family: Helvetica,Arial,Verdana,sans-serif;
+    font-size: 11px;
+}
+
+/* Container & Basic font */
+.template .ntb-calendar-container {
+	-moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+	background: #e6e6e6;
+	border: 1px solid #888;
+}
+
+/* Header (Multi) */
+.template .ntb-calendar-header {
+	height: 20px;
+	background: url(assets/multi_header.png) top left repeat-x;
+}
+.template .ntb-calendar-title {	
+	color: #4A4A4A;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+/* Header (Month) */
+.template .ntb-calendar-monthheader {
+    height: 24px;
+}
+.template a.ntb-calendar-month, .template a.ntb-calendar-year {
+    color: #4a4a4a;
+}
+
+/* Header Buttons */
+.template a.ntb-calendar-prev, .template a.ntb-calendar-next {
+    color: #4a4a4a;
+	font-size: 0;
+	height: 21px;
+	width: 21px;
+	display: block;
+	margin: 2px 1px 0 1px;
+	background: url(assets/prev.gif) top left no-repeat;
+	float: left;
+
+}
+.template a.ntb-calendar-next {
+	background: url(assets/next.gif) top left no-repeat;
+	float: right;
+}
+
+/* Days (Week) */
+.template .ntb-calendar-dayheader {
+	height: 26px;
+	color: #fff;
+}
+
+/* Days */
+.template .ntb-calendar-day {
+    color: #444;
+    cursor: pointer;
+    height: 17px;
+	line-height: 17px;
+	margin: 2px;
+	border: 1px solid #e6e6e6;
+}
+.template a.ntb-calendar-thismonth:hover {
+	color: #3875d7;
+}
+.template .ntb-calendar a.ntb-calendar-disabled {
+	color: #aaa;
+	cursor: default;
+}
+.template .ntb-calendar a.ntb-calendar-event {
+	border: 1px solid #aaa;
+}
+.template .ntb-calendar a.ntb-calendar-currentday {
+	background: #3875d7;
+	color: #fff;
+}
+
+/* Days (Last & Nex Month) */
+.template .ntb-calendar-lastmonth, .template .ntb-calendar-nextmonth {
+	color: #bbb;
+	cursor: default;
+}
+
+/* Text Input */
+.template .ntb-inputcontainer {
+	border: 1px solid #dddddd;
+	border-top-color: #7c7c7c;
+	border-left-color: #c3c3c3;
+	font-size: 11px;
+	width: 150px;
+}
+
+.template input.ntb-dateinput {
+	height: 18px;
+	padding: 0px;
+	border: 0px;
+	margin: 2px 0px 0px 2px;
+	width: 140px;
+	background-color: inherit;
+}
+
+.template input.ntb-dateinput:focus {
+}
+.template input.ntb-dateinput-empty {
+	background:#333444;
+}
+
+.template .ntb-invalid {
+	font-weight: bold;
+	color: #aaa;
+	background-color: #ffeeee;
+	border: 1px solid #bb0000;
+	border-top-color: #dd5555;
+	border-left-color: #ff8888;
+	font-size: 11px;
+	width: 150px;
+}
+
+/* Calender Button */
+.template .ntb-calendar-button {
+	height: 22px;
+	width: 25px;
+	background: transparent url(assets/button.gif) top left no-repeat;
+	cursor: pointer;
+	margin-left: 2px;
+}
+
+/* Chooser Navigation */
+.template .ntb-calendar-navcontainer {
+	border: 1px solid #a1a1a1;
+	border-top: none;
+	width: 150px;
+    background: #aaa;
+}
+.template .ntb-calendar-navcontainer label {
+	display: block;
+}
+.template .ntb-calendar-navcontainer select, .template .ntb-calendar-navcontainer input, .template .ntb-calendar-navcontainer button {
+	font-size: 11px;
+}
+.template .ntb-calendar-navcontainer button {
+	margin-right: 8px;
+}
+.template .ntb-calendar-navcontainer .ntb-calendar-monthcontainer,
+.template .ntb-calendar-navcontainer .ntb-calendar-yearcontainer,
+.template .ntb-calendar-navcontainer .ntb-calendar-controls {
+	padding: 5px 15px;	
+}
+.template .ntb-calendar-navcontainer .ntb-calendar-controls {
+	padding-bottom: 10px;
+}
+.template .ntb-calendar-navcontainer .ntb-calendar-navms {
+	width: 120px;
+}

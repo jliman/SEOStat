@@ -1,0 +1,32 @@
+8
+
+dir
+5
+http://julius@192.168.24.118/svn/seostat/trunk/css/calendar/template
+http://julius@192.168.24.118/svn/seostat
+
+
+
+2010-04-27T04:44:20.621168Z
+3
+julius
+
+
+svn:special svn:externals svn:needs-lock
+
+calendar.css
+file
+
+
+
+
+2009-02-09T06:42:14.000000Z
+9b28f7672169a303e5e2402027ba8c9a
+2010-04-27T04:44:20.621168Z
+3
+julius
+has-props
+
+assets
+dir
+

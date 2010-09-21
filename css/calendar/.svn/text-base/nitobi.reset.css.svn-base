@@ -1,0 +1,56 @@
+/* -------------------------------------------------------------- 
+  
+   reset.css
+   * Resets default browser CSS.
+   
+   Based on work by Eric Meyer:
+   * meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/
+   
+-------------------------------------------------------------- */
+
+.ntb-calendar-reset div, .ntb-calendar-reset span, .ntb-calendar-reset iframe, .ntb-calendar-reset h1, .ntb-calendar-reset h2, .ntb-calendar-reset h3, .ntb-calendar-reset h4, .ntb-calendar-reset h5, .ntb-calendar-reset h6, .ntb-calendar-reset p, .ntb-calendar-reset blockquote, .ntb-calendar-reset pre,
+.ntb-calendar-reset a, .ntb-calendar-reset em, .ntb-calendar-reset font, .ntb-calendar-reset img, .ntb-calendar-reset strong, .ntb-calendar-reset ol, .ntb-calendar-reset ul, .ntb-calendar-reset li, .ntb-calendar-reset fieldset, .ntb-calendar-reset form, .ntb-calendar-reset label, 
+.ntb-calendar-reset table, .ntb-calendar-reset caption, .ntb-calendar-reset tbody, .ntb-calendar-reset tfoot, .ntb-calendar-reset thead, .ntb-calendar-reset tr, .ntb-calendar-reset th {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	background: transparent;
+	color: inherit; 
+}
+
+.ntb-calendar-reset a {
+	color: inherit;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+.ntb-calendar-reset ol,.ntb-calendar-reset  ul {
+	list-style: none;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+.ntb-calendar-reset table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+.ntb-calendar-reset caption,.ntb-calendar-reset th,.ntb-calendar-reset td {
+	text-align: left;
+	font-weight: normal;
+}
+
+.ntb-calendar-reset blockquote:before, .ntb-calendar-reset blockquote:after, .ntb-calendar-reset q:before, q:after {
+	content: "";
+}
+
+.ntb-calendar-reset blockquote, q {
+	quotes: "" "";
+}
