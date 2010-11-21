@@ -3,8 +3,6 @@ require_once('inc/db.php');
 require_once('inc/helper.php');
 require_once('inc/fetch.php');
 
-ob_start();
-
 $fetchFacebook = true;
 $saveToDB = true;
 
@@ -100,6 +98,4 @@ foreach ($accounts as $account) {
 }
 
 echo 'End fetch Facebook: '.date("Y-m-d H:i:s").'<br>';
-include('inc/notification.php');
-
 ?>

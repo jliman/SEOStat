@@ -3,8 +3,6 @@ require_once('inc/db.php');
 require_once('inc/helper.php');
 require_once('inc/fetch.php');
 
-ob_start();
-
 $fetchTwitter = true;
 $saveToDB = true;
 
@@ -43,5 +41,4 @@ foreach ($accounts as $account) {
 }
 
 echo 'End fetch Twitter: '.date("Y-m-d H:i:s").'<br>';
-include('inc/notification.php');
 ?>
