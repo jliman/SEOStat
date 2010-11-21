@@ -1,5 +1,5 @@
 <?php
-
+require_once('../inc/conf.php');
 /**
  * PHPMaker 7 configuration file
  */
@@ -28,11 +28,11 @@ define('EW_USE_DOM_XML', FALSE, TRUE);
 define('ADODB_OUTP', 'ew_SetDebugMsg', TRUE);
 
 // Database connection info
-define("EW_CONN_HOST", "localhost", TRUE);
+define("EW_CONN_HOST", $dbhost, TRUE);
 define("EW_CONN_PORT", 3306, TRUE);
-define("EW_CONN_USER", "seostat", TRUE);
-define("EW_CONN_PASS", "seostat", TRUE);
-define("EW_CONN_DB", "seostat", TRUE);
+define("EW_CONN_USER", $dbuser, TRUE);
+define("EW_CONN_PASS", $dbpasswd, TRUE);
+define("EW_CONN_DB", $dbname, TRUE);
 
 // ADODB (Access/SQL Server)
 define("EW_CODEPAGE", 0, TRUE); // Code page
@@ -163,8 +163,8 @@ define("EW_AUDIT_TRAIL_FIELD_NAME_OLDVALUE", "", TRUE); // Audit trail Old Value
 define("EW_AUDIT_TRAIL_FIELD_NAME_NEWVALUE", "", TRUE); // Audit trail New Value field name
 
 // Security
-define("EW_ADMIN_USER_NAME", "admin", TRUE); // Administrator user name
-define("EW_ADMIN_PASSWORD", "qwerty123", TRUE); // Administrator password
+define("EW_ADMIN_USER_NAME", $admin_username, TRUE); // Administrator user name
+define("EW_ADMIN_PASSWORD", $admin_passwd, TRUE); // Administrator password
 
 // Dynamic User Level tables
 $EW_USER_LEVEL_TABLE_NAME = array();
