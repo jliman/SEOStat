@@ -1,18 +1,18 @@
 How to install:
 ------------------
 1. Run the sql script on the newly created database
-2. Setup some variables at inc/conf.php
-3. Setup website profile at admin area: [siteurl]/admin
+2. Setup some variables at [siteurl]/inc/conf.php
+3. Setup website profile, group and group-profile at admin area: [siteurl]/admin
 4. Run the fetch worker by accessing: [siteurl]/fetch.php
 	Fetch process can also be run individually per website profile or website group by passing parameter id=x,y,z or gid=x,y,z
 	Cron command example for fetching everyday at 23.30: 30 23 * * * lynx -dump [siteurl]/fetch.php?gid=1,2,4,5
 5. Currently there's no password protection for the front end, you can use .htpasswd method to authenticate user access
 
-You can contact me at julius.liman[at]dyvia.com for reporting bug or submitting feedback.
+You can contact me at julius[at]liman.org for reporting bug or submitting feedback.
 
 SEOStat is a courtesy of OgahRugi.com and distributed under BSD License, feel free to use/modify it.
 
 
 Changelog:
 ----------------
-v1.0 Initial Release -- 2010/11/22
+v0.1 Initial Release -- 2010/11/22

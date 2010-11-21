@@ -6,11 +6,11 @@ $admin_passwd = 'admin';
 
 //this email addresses are used for sending notification on data fetching completion
 //fetch url: [siteurl]/fetch.php?id=x or gid=y
-$notification_sender = 'jliman@gmail.com';
-$notification_recipient = 'jliman@gmail.com';
+$notification_sender = 'julius@liman.org';
+$notification_recipient = 'julius@liman.org';
 
 $dbhost = 'localhost';
-$dbname = 'seostat_20101121';
+$dbname = 'seostat_test';
 $dbuser = 'seostat';
 $dbpasswd = 'seostat';
 
