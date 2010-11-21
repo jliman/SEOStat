@@ -1,11 +1,13 @@
 <?
 require_once('inc/db.php');
 
+$groups = getGroups();
+
 $groupID = 0;
 if (isset($_POST['cmbGroup'])) {
 	$groupID = $_POST['cmbGroup'];
 } else {
-	$groupID = 1;
+	$groupID = $groups[0]['id'];
 }
 
 $data = getProfileDataByGroup($groupID);
@@ -38,7 +40,6 @@ function getStrTrend($newvalue, $oldvalue, $inverse=false) {
 		<div>Group: 
 			<select name="cmbGroup" id="cmbGroup" onchange="document.form1.submit()">
 				<? 
-				$groups = getGroups();
 				foreach($groups as $group) {
 				?>
 				<option value="<?=$group['id']?>" <? if ($groupID == $group['id']) echo 'selected';?>><?=$group['name']?></option>
