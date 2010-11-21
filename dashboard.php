@@ -35,6 +35,7 @@ function getStrTrend($newvalue, $oldvalue, $inverse=false) {
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>   	
 	</head>
 	<body>
+		<a href="http://www.ogahrugi.com" target="_blank"><img src="http://www.ogahrugi.com/uploads/style/Logo-Ogahrugi.png" width="100" align="left" border="0"/></a>
 		<h1>SEO Activity Dashboard</h1>
 		<form method="post" name="form1" id="form1">
 		<div>Group: 
@@ -49,7 +50,7 @@ function getStrTrend($newvalue, $oldvalue, $inverse=false) {
 			</select>
 		</div>
 		</form>
-		<br>
+		<br><br>
 		<table cellpadding="0" cellspacing="0" class="seostat">
 			<tr>
 				<td rowspan="2">&nbsp;</td>
@@ -330,7 +331,7 @@ function getStrTrend($newvalue, $oldvalue, $inverse=false) {
 				<td class="number"><?=number_format($data[$i]['tweets_target'])?></td>
 				<? } ?>
 			</tr>
-
 		</table>
+		<p>&copy;2010 <a href="http://www.ogahrugi.com" target="_blank">OgahRugi.com</a></p>
 	</body>
 </html>

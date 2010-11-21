@@ -254,6 +254,7 @@ scrTop = $(window).scrollTop();
 <div id="placeHolder">
 	<div id="semiFixed">
 	<div id="loading"><img src="images/loader.gif" align="absmiddle"/>Loading...</div>
+	<a href="http://www.ogahrugi.com" target="_blank"><img src="http://www.ogahrugi.com/uploads/style/Logo-Ogahrugi.png" width="100" align="left" border="0"/></a>
 	<h1>SEO Activity Statistics</h1>
 	<table>
 		<tr valign="bottom">
@@ -312,5 +313,6 @@ scrTop = $(window).scrollTop();
 	</form>
 
 	<div id="divData"></div>
+	<p>&copy;2010 <a href="http://www.ogahrugi.com" target="_blank">OgahRugi.com</a></p>
 </body>
 </html>
