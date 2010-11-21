@@ -40,10 +40,11 @@ foreach ($accounts as $account) {
 		$buf2 = curl_exec ($ch);
 		curl_close($ch);
 		
-		$arrTemp = explode('About ',$buf2);
-		$arrTemp = explode(' results',$arrTemp[1]);
-		
-		$googleidxpage = str_replace(',', '', $arrTemp[0]);
+		$arrTemp = explode('results<nobr>',$buf2);
+		$arrTemp = explode('>',$arrTemp[0]);
+		$arrTemp = $arrTemp[sizeof($arrTemp)-1];
+		$arrTemp = str_replace('About ', '', $arrTemp);
+		$googleidxpage = str_replace(',', '', $arrTemp);
 		
 		echo 'Google indexed page: '.$googleidxpage.'<br>';
 	}
