@@ -1,11 +1,7 @@
 <?php
-//comments
-
 require_once('inc/db.php');
 require_once('inc/helper.php');
 require_once('inc/fetch.php');
-
-ob_start();
 
 $fetchYahoo = true;
 $fetchBacklinkWatch = true;
@@ -19,18 +15,18 @@ foreach ($accounts as $account) {
 	
 	if ($fetchYahoo) {
 		//check backlink
-		//http://siteexplorer.search.yahoo.com/search?p=www.waytodeal.com&fr=sfp&bwm=i
+		//http://siteexplorer.search.yahoo.com/search?p=[siteurl]&fr=sfp&bwm=i
 		$ch = getCURLResource();
 		curl_setopt($ch, CURLOPT_URL, "http://siteexplorer.search.yahoo.com/search?p=".$account['url']."&fr=sfp&bwm=i");
 		$buf2 = curl_exec ($ch);
 		curl_close($ch);
 		
 		$tempArr = explode('">Pages (', $buf2);
-		$tempArr = explode(')<i', $tempArr[1]);
-	   $indexedPage = str_replace(',', '', $tempArr[0]);
+		$tempArr = explode(')<', $tempArr[1]);
+	   	$indexedPage = str_replace(',', '', $tempArr[0]);
 		
 		$tempArr = explode('Inlinks (',$tempArr[1]);
-		$tempArr = explode('<i class',$tempArr[1]);
+		$tempArr = explode(')<',$tempArr[1]);
 		$backlink = str_replace(',', '', $tempArr[0]);
 		
 		echo 'yahoo index: '.$indexedPage.'<br>yahoo backlink: '.$backlink.'<br>';
@@ -52,8 +48,8 @@ foreach ($accounts as $account) {
 		curl_close($ch);
 		
 		$tempArr = explode('>Total Backlinks<',$buf2);
-	   $tempArr = explode('<td class="row"align="center" width="671"  >',$tempArr[1]);
-	   $tempArr = explode('&nbsp;</td>',$tempArr[1]);
+	   	$tempArr = explode('<td class="row"align="center" width="671"  >',$tempArr[1]);
+	   	$tempArr = explode('&nbsp;</td>',$tempArr[1]);
 		$backlinkwatch = $tempArr[0];
 		
 		echo 'Backlinkwatch: '.$backlinkwatch.'<br>';
@@ -63,7 +59,7 @@ foreach ($accounts as $account) {
 	
 	if ($fetchDirgio) {
 
-		//http://www.dirgio.com/backlink-checker/?q=www.waytodeal.com&strOrderBy=&strOrder=&strAction=domain
+		//http://www.dirgio.com/backlink-checker/?q=[siteurl]&strOrderBy=&strOrder=&strAction=domain
 		$ch = getCURLResource();		
 		curl_setopt($ch, CURLOPT_URL, "http://www.dirgio.com/backlink-checker/?q=".$account['url']."&strOrderBy=&strOrder=&strAction=domain");
 		$buf2 = curl_exec ($ch);
@@ -86,5 +82,4 @@ foreach ($accounts as $account) {
 }
 
 echo 'End fetch Backlink: '.date("Y-m-d H:i:s").'<br>';
-include('inc/notification.php');
 ?>
