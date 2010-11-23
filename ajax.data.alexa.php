@@ -1,5 +1,4 @@
 <?
-//test tambah comment	
 require_once('inc/db.php');
 
 $profileId = 0;
